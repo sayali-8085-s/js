@@ -1,4 +1,4 @@
-// array
+array
 const num=[1,2,3,4,5];
     console.log(num ,typeof num);
 
@@ -17,3 +17,5 @@ console.log("hello");
     let x ;
     x= "hii" + " "+"world";
     console.log(x);
+
+
