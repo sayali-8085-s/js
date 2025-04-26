@@ -41,9 +41,13 @@
 // var b = ( a* 1.8)+32;
 // console.log( "temp = ",b);
 
-var a = parseFloat(prompt("enter  a name"));
+var a = (prompt("enter  a name"));
 var b = parseFloat(prompt("enter  a pass"));
 
-if( a = say && a<=4  ){
+if(  a = "say " &&  b<=9999 && b>=1000  ){
     console.log( "suss");
+}
+
+else{
+    console.log("wrong pass")
 }
