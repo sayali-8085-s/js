@@ -46,5 +46,29 @@ console.log(num);
 // splice
 
 // to remove
- x = num.splice(2 ,3 );
-console.log(num)
+//  x = num.splice(2 ,3 );
+// console.log(num)
+
+
+var num = [ 1,2 ,3 ,4,5,6,7,8,9,10]
+
+for(let a = 0 ;a < num.length; a++ ){
+    console.log(num[a]);
+
+}
+
+
+let a =[]
+for( let i = 0 ; i<10 ;i++){
+
+a[i]  =  parseFloat(prompt("enter a number"));
+}
+    console.log(a);
+
+    for(let a = 3 ;a < 6; a++ ){
+        console.log(num[a]);
+    
+    }
+
+
+
