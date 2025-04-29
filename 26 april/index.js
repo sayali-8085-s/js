@@ -45,11 +45,18 @@ console.log(num);
 
 // splice
 
-// to remove
-//  x = num.splice(2 ,3 );
-// console.log(num)
+var fruit =[ "mngo" ,"grapes"]
 
 
+fruit.splice(0,1,"red" ,"gre")
+console.log(fruit)
+
+
+
+
+
+
+// question
 var num = [ 1,2 ,3 ,4,5,6,7,8,9,10]
 
 for(let a = 0 ;a < num.length; a++ ){
