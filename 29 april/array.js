@@ -29,7 +29,7 @@ console.log(x ,typeof(x));
 const num2 = [10,20];
 console.log(num1.concat(num2));
 
-// spread (....)
+// spread (....)  - it copy element
 const newnum =[...num1, ...num2];
 console.log(newnum);
 
