@@ -20,10 +20,10 @@ const colors = [];
 // push and [pop]
 
 var num = [ 1,2,3 ,4 ,5];
- num.push(4);
+ num.push(6);
  console.log(num);
 
- num.pop(4)
+ num.pop(6)
  console.log(num);
 
 //  shift and unshift
@@ -72,10 +72,7 @@ a[i]  =  parseFloat(prompt("enter a number"));
 }
     console.log(a);
 
-    for(let a = 3 ;a < 6; a++ ){
-        console.log(num[a]);
     
-    }
 
 
 

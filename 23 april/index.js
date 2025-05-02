@@ -42,13 +42,13 @@ output = Math.floor(Math.random() * 10) + 1 ;
 console.log(output);
 
 // practice
-var x =  Math.floor(Math.random() * 100) + 1 ;
-var y =  Math.floor(Math.random() * 50) + 1 ;
-var sum = x+ y;
-console.log(sum);
-var diff = x - y ;
-console.log(diff); 
-var product = x * y ;
-console.log(product);
-var reminder = x % y;
-console.log(reminder);
+// var x =  Math.floor(Math.random() * 100) + 1 ;
+// var y =  Math.floor(Math.random() * 50) + 1 ;
+// var sum = x+ y;
+// console.log(sum);
+// var diff = x - y ;
+// console.log(diff); 
+// var product = x * y ;
+// console.log(product);
+// var reminder = x % y;
+// console.log(reminder);
