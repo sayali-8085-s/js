@@ -2,22 +2,25 @@ const person ={
     name:"say",
     age:21,
 }
-console.log(person);
+// console.log(person);
 // convert to jason - it act as string
 
 const data = JSON.stringify(person);
-console.log(data);
+// console.log(data);
 
 
 // json string to object
 
 const mydata = JSON.parse(data);
-console.log(mydata);
+// console.log(mydata);
 
 
+
+// question
 
 const library = [
-     {
+
+  {
 title: "say",
 author: "singh",
 status :{ 
@@ -31,5 +34,10 @@ status :{
 ];
 
 
-library[2][2]= "true";
+
+library[0].status.read = 'true';
+const [firstbook] = library;
 console.log(library);
+
+const datas = JSON.stringify(library);
+console.log(datas);
