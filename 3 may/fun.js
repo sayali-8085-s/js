@@ -48,7 +48,7 @@ let resul = cube(prompt("enter"));
 console.log(resul);
 
 
-// FUNCTION EXPRESSSION
+// F UNCTION EXPRESSSION
 
 let cubes = function (x){
     return x*x*x;
