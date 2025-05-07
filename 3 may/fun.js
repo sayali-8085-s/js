@@ -50,7 +50,7 @@ console.log(resul);
 
 // F UNCTION EXPRESSSION
 
-let  cubes = function (x){
+let   cubes = function (x){
     return x*x*x;
 };
 console.log(cubes(10));
