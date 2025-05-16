@@ -44,7 +44,7 @@ function cube(num1 ){
     return num1*num1*num1;
 }
 
-let       resul = cube(prompt("enter"));
+let        resul = cube(prompt("enter"));
 console.log(resul);
 
 
