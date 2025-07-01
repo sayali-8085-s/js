@@ -1,15 +1,22 @@
-//  const fruits = [ "bnana", "mango"," grapes"]
+//   FOR OF - DENOTE ELEMENT
+  const fruits = [ "bnana", "mango"," grapes"]
 
-//     for(var a of fruits) {
-//         console.log(a)
-//     } 
+     for(var a of fruits) {
+        console.log(a)
+   } 
 
+ 
 
-// const num = { num:'say' }
+// FOR IN METHOD - it denote index number
+const nums = { num:'say',age:"huu"}
 
-// for( const key in num){
-//     console.log(key ,num[key])
-// }
+for( const KRY in nums){
+    console.log(nums[KRY])
+ }
+
+const num =[110,30,40]
+for(let x in num)
+    console.log(num[x])
 
 
 
