@@ -2,9 +2,12 @@
 // REGULAR FUNCTION
 // there are four type to delecare function
 
+// parameter are the variable that are passed under function paranthesis - formal value
+// argument are the value that are passed when function called - actual value
+
+
 // no return no parameter
-// parameter are the variable that are passed under function paranthesis
-// argument are the value that are passed when function called
+
 
 function dis(){
     console.log("hii");
@@ -48,7 +51,7 @@ let        resul = cube(prompt("enter"));
 console.log(resul);
 
 
-// F UNCTION EXPRESSSION
+// FUNCTION EXPRESSSION
 
 let    cubes = function (x){
     return x*x*x;
@@ -63,3 +66,7 @@ console.log(name);
 print("sayali");
 
 // IIFE
+
+
+
+

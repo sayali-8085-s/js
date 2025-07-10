@@ -45,3 +45,61 @@ for(let a = 1; a <= 5; a++) {
     }
     document.write("<br>");
 }
+
+
+
+function add(num1 ,num2){
+    return num1+num2;
+    
+}
+
+let result = add(20,30);
+console.log(result)
+
+
+
+
+
+
+
+
+// function dis(num){
+//     if(num%2==0 ){
+//         console.log('even')
+//     }
+//     else{
+//         console.log('odd')
+//     }
+
+
+// }
+// let a = parseInt(prompt("enter "));
+
+// dis(a);
+
+
+
+
+function dis(num){
+    for(let i=1; i<=10 ;i++){
+        console.log(num*i)
+    }
+   
+
+}
+let b = parseInt(prompt("enter "));
+
+dis(b);
+
+
+
+function show(){
+    let s =1
+    for(let i=1; i<=10 ;i++){
+        return s = s*i ;
+    }
+}
+
+
+let ans = show();
+console.log(ans);
