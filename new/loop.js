@@ -93,13 +93,18 @@ dis(b);
 
 
 
-function show(){
-    let s =1
-    for(let i=1; i<=10 ;i++){
-        return s = s*i ;
+
+
+
+
+
+function show() {
+    let s = 1;
+    for (let i = 1; i <= 10; i++) {
+        s = s * i;
     }
+    return s;
 }
 
-
 let ans = show();
-console.log(ans);
+console.log(ans);  // Output: 3628800

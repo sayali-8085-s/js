@@ -10,7 +10,7 @@ b = String(b);
 console.log(b , typeof b);
 
 // to boolean
-b = Boolean(b);
+b =  Boolean(b);
 console.log(b,typeof b);
 
 
