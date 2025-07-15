@@ -14,7 +14,9 @@ b =  Boolean(b);
 console.log(b,typeof b);
 
 
-// template literal or template string or backticks
+// template literal or template string or backticks - use for line break(support multiline string) 
+// ,it also support html tag (` <h1> hii </h1>`),
+//  support single and double qutes (qutes under qutes use backtick)
 
 var text = `my age is ${a}`;
 console.log(text);
