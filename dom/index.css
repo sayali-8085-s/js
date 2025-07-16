@@ -6,11 +6,47 @@
     text-align: center;
 }
 
-#second{
+#first1{
+    height: 100px;
+    width: 100px;
+
+    border: 2px solid black;
+    text-align: center;
+    background-image: url('dog.webp');
+}
+
+#first2{
+    height: 100px;
+    width: 100px;
+
+    border: 2px solid black;
+    text-align: center;
+}
+
+#hii{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* #second{
     height: 100px;
     width: 100px;
     
     border: 2px solid black;
     text-align: center;
+} */
+
+#main{
+    height: 300px;
+    width: 300px;
+
+    border: 2px solid black;
+    text-align: center;
+    
 }
 
+#con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
