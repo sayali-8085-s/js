@@ -70,3 +70,53 @@ function sa(){
       a.src="dog.webp"
 
 }
+
+// function one(){
+//       let a= document.getElementById("one")
+//       a.style.display='none'
+// }
+
+// function two(){
+//       let a= document.getElementById("one")
+//       a.style.display="block"
+// }
+
+
+
+
+
+//   function one() {
+//     let a = document.getElementById("one");
+
+//     if (a.style.display === "none") {
+//         a.style.display = "block";
+//     } else {
+//         a.style.display = "none";
+//     }
+// }
+
+
+
+// or 
+let isVisible = false; 
+function one() {
+    const a = document.getElementById("one");
+
+    if (isVisible) {
+      a.style.display = "none";
+    } else {
+      a.style.display = "block";
+    }
+
+    isVisible = !isVisible; 
+  }
+
+
+
+
+
+function submit()  {
+      let b = document.getElementById("text").value
+      let a = document.getElementById("tex").value
+      alert(parseFloat(b)+parseFloat(a))
+}
