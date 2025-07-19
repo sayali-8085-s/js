@@ -254,3 +254,8 @@ console.log( nu.replace('bhoapl' ,'hii'  ))
 
 
 
+let a=
+const print = (name)=>{
+console.log(name);
+};
+print("sayali");

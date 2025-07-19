@@ -58,15 +58,20 @@ let    cubes = function (x){
 };
 console.log(cubes(10));
 
-// ARROW FUNCTION - ES6 FEATURE
+// ARROW FUNCTION - ES6 FEATURE  - by defeault return 
 
 const print = (name)=>{
 console.log(name);
 };
 print("sayali");
 
-// IIFE
+
+let k =(a,b)=> a+b
+alert(k(2,4))
+
+// IIFE - imendialtyly envoke function expression
 
 
 
 
+let a= prompt
