@@ -108,3 +108,15 @@ function show() {
 
 let ans = show();
 console.log(ans);  // Output: 3628800
+
+
+
+
+const print = (name)=>{
+console.log(name);
+};
+for(let i =0 ; i<=3 ;i++){
+
+
+   print(prompt('enter a number'));
+}
