@@ -120,3 +120,11 @@ for(let i =0 ; i<=3 ;i++){
 
    print(prompt('enter a number'));
 }
+
+
+let a =[1,2,3,4,5,6,7,8,9,12]
+
+let z =a.filter( (e)=>{
+    return e<10
+})
+console.log(z)

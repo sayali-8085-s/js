@@ -65,14 +65,31 @@ for(let a = 0 ;a < num.length; a++ ){
 }
 
 
-let a =[]
-for( let i = 0 ; i<10 ;i++){
+// let a =[]
+// for( let i = 0 ; i<10 ;i++){
 
-a[i]  =  parseFloat(prompt("enter a number"));
-}
-    console.log(a);
+// a[i]  =  parseFloat(prompt("enter a number"));
+// }
+//     console.log(a);
 
     
+
+arr=[{name:'sayali',
+    age:20},
+    {name:'khushi',
+    age:'21'},
+    {name:'ssa',
+    age:33}]
+const tbody = document.querySelector('#hii tbody');
+
+    tbody.innerHTML = arr.map(e => `
+      <tr>
+        <td>${e.name}</td>
+        <td>${e.age}</td>
+      </tr>
+    `);
+
+
 
 
 

@@ -148,3 +148,11 @@ for (let a = 1; a <= 5; a++) {
     }
     document.write("<br>");
 }
+
+
+let a =[1,2,3,4,5,6,7,8,9,12]
+
+let b =a.filter( (e)=>{
+    return e<10
+})
+console.log(b)
