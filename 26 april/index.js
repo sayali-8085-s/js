@@ -72,10 +72,15 @@ for(let a = 0 ;a < num.length; a++ ){
 // }
 //     console.log(a);
 
-    
+
+
+
+  // ARRAY OF OBJECT  // 
 
 arr=[{name:'sayali',
     age:20},
+
+
     {name:'khushi',
     age:'21'},
     {name:'ssa',

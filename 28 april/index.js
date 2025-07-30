@@ -1,3 +1,6 @@
+// date object
+
+// new for object and only date give string data
 var d = new Date();
 console.log(d);
 // new Date (year,month,day,hour,minuts,seconds,milliseconds);
@@ -26,5 +29,19 @@ const month = d.getMonth();
 const date = d.getDate();
 const hour = d.getHours();
 const minuts = d.getMinutes();
-console.log(year,month,day,date);
-console.log(day);
+const sec = d.getSeconds();
+const milisec = d.getMinutes();
+const c = d.toLocaleString();
+console.log(year,month,day,date,hour,minuts,c);
+
+
+let mon = ['jan','fab','march','april','may','june','july','agu','sept','oct' ,'nov' ,'dec']
+console.log(mon[d.getMonth()])
+
+
+
+let dob= prompt('enter ur dob')
+f = new Date()
+const years = f.getFullYear();
+
+ console.log(years-dob)

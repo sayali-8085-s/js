@@ -35,7 +35,7 @@ status :{
 
 
 
-library[0].status.read = 'true';
+library[0].status.read =  'true';
 const [firstbook] = library;
 console.log(library);
 
