@@ -1,5 +1,8 @@
+// math object
+
 var a = Math.PI;
 console.log(a);
+
 // squareroot
 console.log(Math.sqrt(100));
 
@@ -20,7 +23,7 @@ console.log(output);
 output = Math.round(5.17);
 console.log(output);
 
-// it always return integer
+// it always return integer like floor
 output = Math.trunc(5.17);
 console.log(output);
 
@@ -36,8 +39,12 @@ console.log(output);
 // random value return between 0 and 1
 output = Math.random();
 // return random between 0 to 10
-output = Math.floor(Math.random() * 10);
-output = Math.floor(Math.random() * 10) + 1 ;
+
+// roll the dice game
+
+output = Math.floor(Math.random() * 6)+1 ;
+// output = Math.floor(Math.random() * 10) +1  ;
+// output = Math.floor(Math.random() * 9000) +1000  ;
 
 console.log(output);
 
@@ -52,3 +59,52 @@ console.log(output);
 // console.log(product);
 // var reminder = x % y;
 // console.log(reminder);
+
+
+// SET TIMEOUT AND SET INTERVAL
+// stop watch
+var a 
+let c=0
+let ok=()=>{
+
+     a = setInterval(()=>{
+     let b = document.getElementById('hii') 
+     b.innerHTML = c
+        c++
+    },
+        1000
+    )
+}
+
+let sto=()=>{
+
+    clearInterval(a)
+        
+    
+}
+
+// sirf 10 tk hi chle
+
+// var a 
+// let c=0
+// let ok=()=>{
+
+//      a = setInterval(()=>{
+     
+        
+//     if(c <=10) {
+//         let b = document.getElementById('hii') 
+//         b.innerHTML = c
+      
+//     }   c++
+//     },
+//         1000
+//     )
+// }
+
+// let sto=()=>{
+
+//     clearInterval(a)
+        
+    
+// }
