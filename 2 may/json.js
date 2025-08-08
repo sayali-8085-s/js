@@ -1,3 +1,5 @@
+// java script object notation
+
 const person ={
     name:"say",
     age:21,

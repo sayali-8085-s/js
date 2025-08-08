@@ -1,10 +1,24 @@
-[
+{
+
+  "hotel":[
     {
         "id":1,
-        "name":"say"
+        "name":"say",
+        "age":21,
+        "location":"mandakni",
+        "person":5,
+        "price":500
     },
 
     {
-        "id":1
+        "id":2,
+        "name":"ram",
+        "age":21,
+        "location":"tt",
+        "person":4,
+        "price":400
     }
-]
+    ]
+
+
+}

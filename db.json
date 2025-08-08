@@ -1,0 +1,54 @@
+{
+  "movieticket": [
+    {
+      "name": "say",
+      "age": 21,
+      "location": "mandakni",
+      "person": 5,
+      "price": 500,
+      "id": "33ca"
+    },
+    {
+      "id": "08ee",
+      "name": "sayali",
+      "age": "21",
+      "location": "bhopal",
+      "person": "2",
+      "price": "500",
+      "total": 500
+    },
+    {
+      "id": "f526",
+      "name": "khushi",
+      "age": "19",
+      "location": "rewa",
+      "person": "6",
+      "price": "500",
+      "total": 500
+    },
+    {
+      "id": "701b",
+      "name": "sam",
+      "age": "21",
+      "location": "rewa",
+      "person": "6",
+      "price": 500
+    },
+    {
+      "id": "5252",
+      "name": "riya",
+      "age": "35",
+      "location": "bhopal",
+      "person": "2",
+      "price": 500
+    },
+    {
+      "id": "fe83",
+      "name": "anjli",
+      "age": "21",
+      "location": "rewa",
+      "person": "2",
+      "price": 500
+    }
+  ]
+}

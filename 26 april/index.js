@@ -87,7 +87,7 @@ arr=[{name:'sayali',
     age:33}]
 const tbody = document.querySelector('#hii tbody');
 
-    tbody.innerHTML = arr.map(e => `
+    tbody.innerHTML = arr.map((e )=> `
       <tr>
         <td>${e.name}</td>
         <td>${e.age}</td>
